@@ -36,3 +36,16 @@ request(options, function(error, response, body) {
 
 })
 
+/*
+for R
+library("RCurl")
+response <- postForm("http://<<input url>>",
+         'strTargetField'= 'COUNTY', 
+         'strKeyWords'= '' 
+)
+write(response, file = "./address.html",append = FALSE, sep = "")
+
+*/
+
+
+
